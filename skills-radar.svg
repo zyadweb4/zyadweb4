@@ -1,0 +1,71 @@
+<svg viewBox="0 0 600 520" xmlns="http://www.w3.org/2000/svg" font-family="'Segoe UI', 'Fira Code', sans-serif">
+  <defs>
+    <radialGradient id="bgGlow" cx="50%" cy="45%" r="60%">
+      <stop offset="0%" stop-color="#0f2a45"/>
+      <stop offset="100%" stop-color="#0d1b2a"/>
+    </radialGradient>
+    <linearGradient id="fillGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#29B6F6" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#00A9E0" stop-opacity="0.25"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="600" height="520" rx="18" fill="url(#bgGlow)"/>
+
+  <text x="300" y="40" text-anchor="middle" fill="#29B6F6" font-size="22" font-weight="800" letter-spacing="2">SKILL RADAR</text>
+  <text x="300" y="62" text-anchor="middle" fill="#7fb8d8" font-size="12" letter-spacing="4">ZEYAD MOHAMED — GIS &amp; WEB</text>
+
+  <!-- center at 300,300 ; 6 axes -->
+  <g transform="translate(300,300)">
+    <!-- grid rings -->
+    <g fill="none" stroke="#1f4666" stroke-width="1">
+      <polygon points="0,-200 173,-100 173,100 0,200 -173,100 -173,-100"/>
+      <polygon points="0,-150 130,-75 130,75 0,150 -130,75 -130,-75"/>
+      <polygon points="0,-100 87,-50 87,50 0,100 -87,50 -87,-50"/>
+      <polygon points="0,-50 43,-25 43,25 0,50 -43,25 -43,-25"/>
+    </g>
+    <!-- axes -->
+    <g stroke="#1f4666" stroke-width="1">
+      <line x1="0" y1="0" x2="0" y2="-200"/>
+      <line x1="0" y1="0" x2="173" y2="-100"/>
+      <line x1="0" y1="0" x2="173" y2="100"/>
+      <line x1="0" y1="0" x2="0" y2="200"/>
+      <line x1="0" y1="0" x2="-173" y2="100"/>
+      <line x1="0" y1="0" x2="-173" y2="-100"/>
+    </g>
+
+    <!-- data polygon (values 0-1 of 200px)
+         GIS .95 top | Web .90 | Mobile .80 | WordPress .90 | AutoCAD/Civil .85 | JS .85 -->
+    <polygon filter="url(#glow)" fill="url(#fillGrad)" stroke="#29B6F6" stroke-width="2.5"
+      points="0,-190 156,-90 138,80 0,180 -147,85 -161,-93">
+      <animate attributeName="points" dur="1.4s" fill="freeze"
+        from="0,0 0,0 0,0 0,0 0,0 0,0"
+        to="0,-190 156,-90 138,80 0,180 -147,85 -161,-93"
+        calcMode="spline" keySplines="0.22 1 0.36 1"/>
+    </polygon>
+
+    <!-- vertex dots with pulse -->
+    <g fill="#4FC3F7">
+      <circle cx="0" cy="-190" r="5"><animate attributeName="r" values="4;7;4" dur="2.4s" repeatCount="indefinite"/></circle>
+      <circle cx="156" cy="-90" r="5"><animate attributeName="r" values="4;7;4" dur="2.4s" begin="0.4s" repeatCount="indefinite"/></circle>
+      <circle cx="138" cy="80" r="5"><animate attributeName="r" values="4;7;4" dur="2.4s" begin="0.8s" repeatCount="indefinite"/></circle>
+      <circle cx="0" cy="180" r="5"><animate attributeName="r" values="4;7;4" dur="2.4s" begin="1.2s" repeatCount="indefinite"/></circle>
+      <circle cx="-147" cy="85" r="5"><animate attributeName="r" values="4;7;4" dur="2.4s" begin="1.6s" repeatCount="indefinite"/></circle>
+      <circle cx="-161" cy="-93" r="5"><animate attributeName="r" values="4;7;4" dur="2.4s" begin="2.0s" repeatCount="indefinite"/></circle>
+    </g>
+
+    <!-- labels -->
+    <g fill="#dbeefb" font-size="13" font-weight="700" text-anchor="middle">
+      <text x="0" y="-215">GIS / ArcGIS</text>
+      <text x="185" y="-105">Web Dev</text>
+      <text x="180" y="118">Mobile</text>
+      <text x="0" y="205">WordPress</text>
+      <text x="-172" y="118">AutoCAD / Civil 3D</text>
+      <text x="-176" y="-105">JavaScript</text>
+    </g>
+  </g>
+</svg>
