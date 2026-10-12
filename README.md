@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1b2a,20:1b263b,45:00A9E0,70:29B6F6,90:4FC3F7,100:0d1b2a&height=260&section=header&text=Zyad%20Mohamed&fontSize=60&fontColor=FFFFFF&fontAlignY=32&desc=GIS%20%C2%B7%20Surveying%20%C2%B7%20AutoCAD%20%C2%B7%20Civil%203D%20%C2%B7%20QA%20Testing&descAlignY=56&descSize=18&animation=twinkling&font=Fira%20Code" width="100%" alt="Zyad Mohamed" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1b2a,20:1b263b,45:00A9E0,70:29B6F6,90:4FC3F7,100:0d1b2a&height=260&section=header&text=Zyad%20Mohamed&fontSize=60&fontColor=FFFFFF&fontAlignY=32&desc=GIS%20%C2%B7%20WordPress%20%C2%B7%20Web%20Developer%20%C2%B7%20Data%20Entry%20%C2%B7%20QA%20Testing&descAlignY=56&descSize=18&animation=twinkling&font=Fira%20Code" width="100%" alt="Zyad Mohamed" />
 </p>
 
 <p align="center">
