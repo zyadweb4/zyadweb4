@@ -51,7 +51,7 @@
 
     <!-- ===== HEADER ===== -->
     <text x="34" y="44" fill="#29B6F6" font-size="20" font-weight="800" letter-spacing="3">◢ GIS COMMAND CENTER</text>
-    <text x="34" y="64" fill="#6fa8c9" font-size="11" letter-spacing="2">ZEYAD MOHAMED ABDELFATTAH · SPATIAL OPS</text>
+    <text x="34" y="64" fill="#6fa8c9" font-size="11" letter-spacing="2">ZYAD MOHAMED ABDELFATTAH · SPATIAL OPS</text>
     <g>
       <circle cx="862" cy="40" r="6" fill="#29B6F6"><animate attributeName="opacity" values="1;0.2;1" dur="1.4s" repeatCount="indefinite"/></circle>
       <text x="850" y="44" text-anchor="end" fill="#8fd0f0" font-size="11" letter-spacing="2">LIVE</text>

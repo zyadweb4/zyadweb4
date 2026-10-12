@@ -17,7 +17,7 @@
   <rect width="600" height="520" rx="18" fill="url(#bgGlow)"/>
 
   <text x="300" y="40" text-anchor="middle" fill="#29B6F6" font-size="22" font-weight="800" letter-spacing="2">SKILL RADAR</text>
-  <text x="300" y="62" text-anchor="middle" fill="#7fb8d8" font-size="12" letter-spacing="4">ZEYAD MOHAMED — GIS &amp; WEB</text>
+  <text x="300" y="62" text-anchor="middle" fill="#7fb8d8" font-size="12" letter-spacing="4">ZYAD MOHAMED — GIS &amp; WEB</text>
 
   <!-- center at 300,300 ; 6 axes -->
   <g transform="translate(300,300)">
