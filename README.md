@@ -9,7 +9,6 @@
 <p align="center">
   <img src="https://img.shields.io/badge/OPEN_TO-REMOTE_WORK-00A9E0?style=for-the-badge&labelColor=0d1b2a" alt="Open to remote work" />
   <img src="https://img.shields.io/badge/BASED_IN-EGYPT-4FC3F7?style=for-the-badge&labelColor=0d1b2a" alt="Based in Egypt" />
-  <img src="https://komarev.com/ghpvc/?username=zyadweb4&color=29B6F6&label=PROFILE+VIEWS&style=for-the-badge" alt="Profile views" />
 </p>
 
 <p align="center">
