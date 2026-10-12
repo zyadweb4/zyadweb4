@@ -1,9 +1,9 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1b2a,20:1b263b,45:00A9E0,70:29B6F6,90:4FC3F7,100:0d1b2a&height=260&section=header&text=Zyad%20Mohamed&fontSize=60&fontColor=FFFFFF&fontAlignY=32&desc=GIS%20%C2%B7%20WordPress%20%C2%B7%20Web%20Developer%20%C2%B7%20Data%20Entry%20%C2%B7%20QA%20Testing&descAlignY=56&descSize=18&animation=twinkling&font=Fira%20Code" width="100%" alt="Zyad Mohamed" />
+  <img src="https://raw.githubusercontent.com/zyadweb4/zyadweb4/main/assets/hero.svg" width="100%" alt="Zyad Mohamed — GIS · WordPress · Web Developer · Data Entry · QA Testing" />
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&duration=2400&pause=700&color=29B6F6&center=true&vCenter=true&width=820&height=60&lines=Surveying+%26+GIS+graduate+%E2%80%94+Damanhur+University+2026;ArcGIS+Pro+%C2%B7+QGIS+%C2%B7+AutoCAD+%C2%B7+Civil+3D;QA+Tester+for+web+%26+mobile+apps+at+Findo+Group;From+field+survey+to+final+delivery." alt="Typing intro" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&duration=2400&pause=700&color=29B6F6&center=true&vCenter=true&width=820&height=60&lines=Surveying+%26+GIS+graduate+%E2%80%94+Damanhur+University+2026;ArcGIS+Pro+%C2%B7+QGIS+%C2%B7+AutoCAD+%C2%B7+Civil+3D;WordPress+%C2%B7+Web+Developer+%C2%B7+Data+Entry;QA+Tester+for+web+%26+mobile+apps+at+Findo+Group;From+field+survey+to+final+delivery." alt="Typing intro" />
 </p>
 
 <p align="center">
@@ -14,6 +14,14 @@
 <p align="center">
   <img src="https://raw.githubusercontent.com/zyadweb4/zyadweb4/main/assets/command-center.svg" width="100%" alt="GIS command center" />
 </p>
+
+## What I do
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/zyadweb4/zyadweb4/main/assets/focus.svg" width="100%" alt="GIS & Surveying · WordPress · Web Developer · Data Entry · QA Testing" />
+</p>
+
+<p align="center"><img src="https://raw.githubusercontent.com/zyadweb4/zyadweb4/main/assets/divider.svg" width="100%" alt="" /></p>
 
 ## About me
 
@@ -31,6 +39,8 @@ languages   Arabic (native) · English (working)
 motto       "From field survey to final delivery."
 ```
 
+<p align="center"><img src="https://raw.githubusercontent.com/zyadweb4/zyadweb4/main/assets/divider.svg" width="100%" alt="" /></p>
+
 ## Experience
 
 | When | Role | What I do |
@@ -39,12 +49,16 @@ motto       "From field survey to final delivery."
 | 2023 – 2025 | **Data Entry & SEO Specialist** · Findo Group (remote) | Large Arabic/English data entry with checks against source documents · reports in Excel, Word and PowerPoint, SQL look-ups · ran a women's shoe e-commerce store for a year: product data, prices, sizes and SEO blog articles, search optimization and social growth |
 | 2023 – 2026 | **Surveying & GIS** · Damanhur University | Field training on Total Station, GPS, Level and Echo Sounder · processing in Sokkia Link and Surfer · analysis in ArcGIS Pro and QGIS · design in AutoCAD and Civil 3D |
 
+<p align="center"><img src="https://raw.githubusercontent.com/zyadweb4/zyadweb4/main/assets/divider.svg" width="100%" alt="" /></p>
+
 ## Certificates
 
 - 🏆 **Certificate of appreciation for excellence — graduation project** · Geography Dept., Faculty of Arts, Damanhur University (2025/2026)
 - 📐 **Surveying software: Sokkia Link, Surfer, AutoCAD and Civil 3D** — grade Very Good · Misr Public Library, Damanhour (Nov 2024 – Jun 2025)
 - 🛰️ **Statement of proficiency in surveying instruments and software** · Faculty of Arts, Damanhur University (2023 – 2025)
 - 🤖 **Claude 101** · Anthropic (Jul 2026)
+
+<p align="center"><img src="https://raw.githubusercontent.com/zyadweb4/zyadweb4/main/assets/divider.svg" width="100%" alt="" /></p>
 
 ## Tech stack
 
@@ -85,6 +99,8 @@ motto       "From field survey to final delivery."
   <img src="https://raw.githubusercontent.com/zyadweb4/zyadweb4/main/assets/tech-marquee.svg" width="100%" alt="Tools marquee" />
 </p>
 
+<p align="center"><img src="https://raw.githubusercontent.com/zyadweb4/zyadweb4/main/assets/divider.svg" width="100%" alt="" /></p>
+
 ## Featured repositories
 
 <p align="center">
@@ -100,6 +116,8 @@ motto       "From field survey to final delivery."
 | [**qa-automation-playwright**](https://github.com/zyadweb4/qa-automation-playwright) | Playwright + TypeScript end-to-end tests with page objects and CI, plus a test plan, test cases and bug reports. |
 | [**n8n-job-hunter**](https://github.com/zyadweb4/n8n-job-hunter) | n8n workflow that collects remote jobs, scores them with AI against my profile, writes cover letters and emails me a daily summary. |
 
+<p align="center"><img src="https://raw.githubusercontent.com/zyadweb4/zyadweb4/main/assets/divider.svg" width="100%" alt="" /></p>
+
 ## Selected work
 
 | Project | Description | Stack |
@@ -114,6 +132,8 @@ motto       "From field survey to final delivery."
   <a href="https://zyad-mohamed-abdelfattah.vercel.app"><img src="https://img.shields.io/badge/See_my_portfolio-29B6F6?style=for-the-badge&logo=vercel&logoColor=white&labelColor=0d1b2a" alt="Portfolio" /></a>
 </p>
 
+<p align="center"><img src="https://raw.githubusercontent.com/zyadweb4/zyadweb4/main/assets/divider.svg" width="100%" alt="" /></p>
+
 ## GitHub activity
 
 <p align="center">
@@ -127,6 +147,8 @@ motto       "From field survey to final delivery."
     <img alt="Contribution snake" src="https://raw.githubusercontent.com/zyadweb4/zyadweb4/output/github-contribution-grid-snake.svg" />
   </picture>
 </p>
+
+<p align="center"><img src="https://raw.githubusercontent.com/zyadweb4/zyadweb4/main/assets/divider.svg" width="100%" alt="" /></p>
 
 ## Contact
 

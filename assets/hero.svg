@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="380" viewBox="0 0 1200 380" role="img" aria-label="Zyad Mohamed — GIS · WordPress · Web Developer · Data Entry · QA Testing">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07111f"/>
+      <stop offset="0.55" stop-color="#0b1d33"/>
+      <stop offset="1" stop-color="#062a3f"/>
+    </linearGradient>
+    <linearGradient id="nameGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#4FC3F7"/>
+      <stop offset="0.5" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#29B6F6"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="-1 0;1 0;-1 0" dur="6s" repeatCount="indefinite"/>
+    </linearGradient>
+    <radialGradient id="sweep" cx="0" cy="0" r="1">
+      <stop offset="0" stop-color="#29B6F6" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#29B6F6" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#29B6F6" stroke-opacity="0.07"/>
+    </pattern>
+    <clipPath id="radarClip"><circle cx="1010" cy="190" r="130"/></clipPath>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <style>
+      .t{font-family:'Segoe UI',Ubuntu,'Helvetica Neue',Arial,sans-serif}
+      .m{font-family:'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace}
+      .contour{fill:none;stroke:#29B6F6;stroke-width:1.2;stroke-dasharray:6 10;animation:flow 14s linear infinite}
+      .contour.b{stroke:#00A9E0;stroke-opacity:.35;animation-duration:20s;animation-direction:reverse}
+      @keyframes flow{to{stroke-dashoffset:-320}}
+      .draw{stroke-dasharray:900;stroke-dashoffset:900;animation:draw 3.2s ease-out forwards}
+      @keyframes draw{to{stroke-dashoffset:0}}
+      .rise{opacity:0;animation:rise .9s ease-out forwards}
+      @keyframes rise{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+      .pt{animation:ping 2.4s ease-out infinite;transform-box:fill-box;transform-origin:center}
+      @keyframes ping{0%{opacity:1;transform:scale(1)}70%{opacity:0;transform:scale(3.2)}100%{opacity:0}}
+      .blink{animation:blink 1s steps(1) infinite}
+      @keyframes blink{50%{opacity:0}}
+      .role{opacity:0;animation:role 15s infinite}
+      @keyframes role{0%{opacity:0;transform:translateY(12px)}3%,17%{opacity:1;transform:none}20%,100%{opacity:0;transform:translateY(-12px)}}
+      .bar{animation:bar 2.6s ease-in-out infinite alternate;transform-box:fill-box;transform-origin:left}
+      @keyframes bar{from{transform:scaleX(.35)}to{transform:scaleX(1)}}
+      @media (prefers-reduced-motion: reduce){*{animation:none!important}.rise,.role{opacity:1}}
+    </style>
+  </defs>
+
+  <rect width="1200" height="380" rx="22" fill="url(#bg)"/>
+  <rect width="1200" height="380" rx="22" fill="url(#grid)"/>
+
+  <!-- moving contour lines (topography) -->
+  <g>
+    <path class="contour" d="M-20 300 C 180 250, 330 340, 520 290 S 860 230, 1220 300"/>
+    <path class="contour b" d="M-20 330 C 200 290, 360 370, 560 325 S 880 270, 1220 335"/>
+    <path class="contour" style="stroke-opacity:.5" d="M-20 270 C 160 215, 300 300, 500 255 S 840 195, 1220 262"/>
+    <path class="contour b" d="M-20 60 C 220 110, 420 20, 640 70 S 980 120, 1220 50"/>
+  </g>
+
+  <!-- radar -->
+  <g transform="translate(0 0)">
+    <circle cx="1010" cy="190" r="130" fill="#061423" stroke="#29B6F6" stroke-opacity=".35"/>
+    <circle cx="1010" cy="190" r="90" fill="none" stroke="#29B6F6" stroke-opacity=".2"/>
+    <circle cx="1010" cy="190" r="48" fill="none" stroke="#29B6F6" stroke-opacity=".2"/>
+    <path d="M880 190H1140M1010 60V320" stroke="#29B6F6" stroke-opacity=".18"/>
+    <g clip-path="url(#radarClip)">
+      <path d="M1010 190 L1010 60 A130 130 0 0 1 1102 98 Z" fill="url(#sweep)">
+        <animateTransform attributeName="transform" type="rotate" from="0 1010 190" to="360 1010 190" dur="4s" repeatCount="indefinite"/>
+      </path>
+    </g>
+    <!-- survey points -->
+    <g fill="#4FC3F7">
+      <circle cx="960" cy="140" r="4"/><circle class="pt" cx="960" cy="140" r="4" fill="none" stroke="#4FC3F7"/>
+      <circle cx="1065" cy="160" r="4"/><circle class="pt" cx="1065" cy="160" r="4" fill="none" stroke="#4FC3F7" style="animation-delay:.8s"/>
+      <circle cx="1040" cy="250" r="4"/><circle class="pt" cx="1040" cy="250" r="4" fill="none" stroke="#4FC3F7" style="animation-delay:1.6s"/>
+      <circle cx="975" cy="235" r="4"/><circle class="pt" cx="975" cy="235" r="4" fill="none" stroke="#4FC3F7" style="animation-delay:1.2s"/>
+    </g>
+    <path class="draw" d="M960 140 L1065 160 L1040 250 L975 235 Z" fill="#29B6F6" fill-opacity=".08" stroke="#29B6F6" stroke-width="1.5" style="animation-delay:.6s"/>
+    <text x="1010" y="345" text-anchor="middle" class="m" font-size="12" fill="#4FC3F7" fill-opacity=".8">UTM 36N · E 580340 · N 3015261</text>
+  </g>
+
+  <!-- name + roles -->
+  <g filter="url(#glow)">
+    <text x="70" y="150" class="t rise" font-size="74" font-weight="800" fill="url(#nameGrad)" style="animation-delay:.2s">Zyad Mohamed</text>
+  </g>
+  <rect class="rise" x="72" y="172" width="120" height="4" rx="2" fill="#29B6F6" style="animation-delay:.5s"/>
+
+  <g class="t" font-size="30" font-weight="600" fill="#E6F6FF">
+    <text x="72" y="228" class="role" style="animation-delay:0s">🗺️  GIS &amp; Surveying</text>
+    <text x="72" y="228" class="role" style="animation-delay:3s">🧩  WordPress</text>
+    <text x="72" y="228" class="role" style="animation-delay:6s">💻  Web Developer</text>
+    <text x="72" y="228" class="role" style="animation-delay:9s">📊  Data Entry</text>
+    <text x="72" y="228" class="role" style="animation-delay:12s">🧪  QA Testing</text>
+  </g>
+
+  <!-- terminal line -->
+  <g class="rise" style="animation-delay:.9s">
+    <rect x="70" y="262" width="560" height="44" rx="10" fill="#061423" stroke="#29B6F6" stroke-opacity=".35"/>
+    <text x="90" y="290" class="m" font-size="16" fill="#9fdcff">$ from field survey --to final delivery<tspan class="blink" fill="#29B6F6"> ▌</tspan></text>
+  </g>
+
+  <!-- tiny live bars -->
+  <g class="rise" style="animation-delay:1.2s">
+    <rect x="660" y="268" width="150" height="6" rx="3" fill="#29B6F6" fill-opacity=".15"/>
+    <rect class="bar" x="660" y="268" width="150" height="6" rx="3" fill="#29B6F6"/>
+    <rect x="660" y="284" width="150" height="6" rx="3" fill="#29B6F6" fill-opacity=".15"/>
+    <rect class="bar" x="660" y="284" width="150" height="6" rx="3" fill="#4FC3F7" style="animation-delay:.6s"/>
+    <rect x="660" y="300" width="150" height="6" rx="3" fill="#29B6F6" fill-opacity=".15"/>
+    <rect class="bar" x="660" y="300" width="150" height="6" rx="3" fill="#00A9E0" style="animation-delay:1.2s"/>
+  </g>
+
+  <text x="72" y="345" class="t" font-size="14" fill="#7fb8d6">Egypt · Open to remote work</text>
+</svg>
