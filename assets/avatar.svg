@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="800" viewBox="0 0 800 800">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="38%" r="70%">
+      <stop offset="0" stop-color="#13365a"/>
+      <stop offset="0.55" stop-color="#0a1d33"/>
+      <stop offset="1" stop-color="#050d18"/>
+    </radialGradient>
+    <linearGradient id="mono" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="0.45" stop-color="#bfeaff"/>
+      <stop offset="1" stop-color="#29B6F6"/>
+    </linearGradient>
+    <linearGradient id="ring" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#4FC3F7"/>
+      <stop offset="0.5" stop-color="#00A9E0"/>
+      <stop offset="1" stop-color="#7C70FF"/>
+    </linearGradient>
+    <radialGradient id="sweep" cx="0" cy="0" r="1">
+      <stop offset="0" stop-color="#29B6F6" stop-opacity=".45"/>
+      <stop offset="1" stop-color="#29B6F6" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="disc"><circle cx="400" cy="400" r="352"/></clipPath>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="10" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#29B6F6" stroke-opacity=".08"/>
+    </pattern>
+  </defs>
+
+  <rect width="800" height="800" fill="#050d18"/>
+  <circle cx="400" cy="400" r="352" fill="url(#bg)"/>
+  <g clip-path="url(#disc)">
+    <rect width="800" height="800" fill="url(#grid)"/>
+    <!-- topographic contours -->
+    <g fill="none" stroke="#29B6F6" stroke-opacity=".22" stroke-width="2">
+      <path d="M40 560 C 180 500, 300 600, 420 545 S 640 470, 780 540"/>
+      <path d="M40 600 C 190 545, 310 640, 430 590 S 650 515, 780 585"/>
+      <path d="M40 640 C 200 590, 320 680, 440 635 S 660 560, 780 630"/>
+      <path d="M40 210 C 200 260, 330 170, 470 215 S 680 270, 780 200" stroke-opacity=".14"/>
+      <path d="M40 170 C 210 220, 340 130, 480 175 S 690 230, 780 160" stroke-opacity=".12"/>
+    </g>
+    <!-- radar sweep -->
+    <path d="M400 400 L400 48 A352 352 0 0 1 649 151 Z" fill="url(#sweep)"/>
+    <g fill="none" stroke="#29B6F6" stroke-opacity=".18" stroke-width="2">
+      <circle cx="400" cy="400" r="250"/>
+      <circle cx="400" cy="400" r="150"/>
+      <path d="M48 400H752M400 48V752"/>
+    </g>
+    <!-- survey parcel -->
+    <path d="M548 150 L650 176 L628 258 L536 240 Z" fill="#29B6F6" fill-opacity=".12" stroke="#4FC3F7" stroke-width="3"/>
+    <g fill="#4FC3F7">
+      <circle cx="548" cy="150" r="7"/><circle cx="650" cy="176" r="7"/><circle cx="628" cy="258" r="7"/><circle cx="536" cy="240" r="7"/>
+    </g>
+  </g>
+
+  <!-- outer ring with ticks -->
+  <circle cx="400" cy="400" r="362" fill="none" stroke="url(#ring)" stroke-width="12"/>
+  <g stroke="#4FC3F7" stroke-opacity=".6" stroke-width="3">
+    <path d="M400 26v22M400 752v22M26 400h22M752 400h22"/>
+  </g>
+
+  <!-- monogram -->
+  <g filter="url(#glow)">
+    <text x="400" y="452" text-anchor="middle" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="250" font-weight="800" letter-spacing="-8" fill="url(#mono)">ZM</text>
+  </g>
+  <rect x="300" y="482" width="200" height="8" rx="4" fill="#29B6F6"/>
+  <text x="400" y="545" text-anchor="middle" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="34" font-weight="600" letter-spacing="6" fill="#d8f2ff">GIS · WEB · QA</text>
+
+  <!-- icon chips along the bottom arc -->
+  <g font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="30" font-weight="700" fill="#0a1d33" text-anchor="middle">
+    <g transform="translate(400 640)">
+      <circle r="34" fill="#4FC3F7"/>
+      <path d="M-14 -8 l7 22 7-16 7 16 7-22" fill="none" stroke="#0a1d33" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <g transform="translate(300 616)">
+      <circle r="30" fill="#4FC3F7"/>
+      <path d="M-13 -10 l9-4 9 4 9-4v20l-9 4-9-4-9 4z" fill="none" stroke="#0a1d33" stroke-width="3.5" stroke-linejoin="round"/>
+    </g>
+    <g transform="translate(500 616)">
+      <circle r="30" fill="#4FC3F7"/>
+      <path d="M-6 -10l-10 10 10 10M6 -10l10 10-10 10" fill="none" stroke="#0a1d33" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+  </g>
+</svg>
