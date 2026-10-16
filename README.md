@@ -108,6 +108,7 @@ motto       "From field survey to final delivery."
   <a href="https://github.com/zyadweb4/qa-automation-playwright"><img src="https://github-readme-stats.vercel.app/api/pin/?username=zyadweb4&repo=qa-automation-playwright&hide_border=true&title_color=29B6F6&icon_color=00A9E0&text_color=c9d1d9&bg_color=0d1b2a" alt="qa-automation-playwright" /></a>
   <a href="https://github.com/zyadweb4/n8n-job-hunter"><img src="https://github-readme-stats.vercel.app/api/pin/?username=zyadweb4&repo=n8n-job-hunter&hide_border=true&title_color=29B6F6&icon_color=00A9E0&text_color=c9d1d9&bg_color=0d1b2a" alt="n8n-job-hunter" /></a>
   <a href="https://github.com/zyadweb4/Daily-plan"><img src="https://github-readme-stats.vercel.app/api/pin/?username=zyadweb4&repo=Daily-plan&hide_border=true&title_color=29B6F6&icon_color=00A9E0&text_color=c9d1d9&bg_color=0d1b2a" alt="Daily-plan" /></a>
+  <a href="https://github.com/zyadweb4/portfolio"><img src="https://github-readme-stats.vercel.app/api/pin/?username=zyadweb4&repo=portfolio&hide_border=true&title_color=29B6F6&icon_color=00A9E0&text_color=c9d1d9&bg_color=0d1b2a" alt="portfolio" /></a>
 </p>
 
 | Repository | What it is |
